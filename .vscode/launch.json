@@ -1,0 +1,87 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Demo",
+      "request": "launch",
+      "mainClass": "Demo",
+      "projectName": "JAVA2_a078a716"
+    },
+    {
+      "type": "java",
+      "name": "Client",
+      "request": "launch",
+      "mainClass": "Client",
+      "projectName": "JAVA2_a078a716"
+    },
+    {
+      "type": "java",
+      "name": "Server",
+      "request": "launch",
+      "mainClass": "Server",
+      "projectName": "JAVA2_a078a716"
+    },
+    {
+      "type": "java",
+      "name": "A",
+      "request": "launch",
+      "mainClass": "A",
+      "projectName": "JAVA2_a078a716"
+    },
+    {
+      "type": "java",
+      "name": "B",
+      "request": "launch",
+      "mainClass": "B",
+      "projectName": "JAVA2_a078a716"
+    },
+    {
+      "type": "java",
+      "name": "Student",
+      "request": "launch",
+      "mainClass": "Student",
+      "projectName": "JAVA2_a078a716"
+    },
+    {
+      "type": "java",
+      "name": "Emp",
+      "request": "launch",
+      "mainClass": "Emp",
+      "projectName": "JAVA2_a078a716"
+    },
+    {
+      "type": "java",
+      "name": "Teacher",
+      "request": "launch",
+      "mainClass": "Teacher",
+      "projectName": "JAVA2_a078a716"
+    },
+    {
+      "type": "java",
+      "name": "Example",
+      "request": "launch",
+      "mainClass": "Example",
+      "projectName": "JAVA2_a078a716"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Bisha/Desktop/NCIT/JAVA/JAVA2/C",
+      "program": "c:/Users/Bisha/Desktop/NCIT/JAVA/JAVA2/C/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

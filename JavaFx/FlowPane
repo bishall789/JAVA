@@ -1,0 +1,31 @@
+pacakage Javafx;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import javafx.scenelayout.FlowPane;
+
+class FlowPane extends Application {
+    public void start(Stage stage) {
+
+        FlowPane root = new FlowPane();
+
+        Button b1 = new Button("b1");
+        Button b2 = new Button("b2");
+
+        root.setOrientation(Orientation.VERTICAL);
+        root.setVgap(10);
+        root.setHgap(10);
+
+        Scene scene = new Scene(root,500,500);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public static void main(String[]args) {
+        launch(args);
+    }
+
+
+
+}

@@ -1,0 +1,35 @@
+pacakage Javafx;
+
+import javafx.application.Application;
+import stage.Stage;
+import scene.Scene;
+import scenelayout.BorderPane;
+
+class BorderPane extends Application {
+    public void start(Stage stage) throws Exception{
+
+        BorderPane root = new BorderPane();
+
+        Button top = new Button("top");
+        Button buttom = new Button("buttom");
+        Button left = new Button("left");
+        Button right = new Button("right");
+        Button center = new Button("center");
+
+        root.setCenter(center);
+        root.setLeft(left);
+        root.setRight(right);
+        root.settop(top);
+        root.addButtom(buttom);
+
+        Scene scene = new Scene(root,500,500);
+        stage.setScene(scene);
+        stage.show();
+
+
+    }
+
+    public static void main(String[]args) {
+        launch(args);
+    }
+}

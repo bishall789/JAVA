@@ -1,0 +1,32 @@
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scenelayout.HBox;
+import javafx.stage.Stage;
+
+class First extends Application {
+    public void start(Stage  stage) throws Exception {
+
+        HBox root = new HBox(5);
+        Button b = new Button("CLICK");
+        Label l = new Label();
+
+        root.getChildren().addAll(l,b);
+
+        Scene scene = new Scene(root,400,400);
+        stage.setScene(scene);
+        stage.setTitle("First Javafx");
+        stage.show();
+
+        b.seOnAction(e->l.setText("ROOT"));
+
+}
+
+public static void main(String[]args)
+{
+    launch(args);
+
+}
+
+}
+
+

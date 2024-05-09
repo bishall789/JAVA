@@ -1,0 +1,28 @@
+pacakage Javafx;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import javafx.scenelayout.FlowPane;
+
+
+class StackPane extends Application  {
+    public void start(Stage stage) {
+
+        StackPane root = new StackPane();
+
+        Button b1 = new Button("This is long");
+        Button b2 = new Button("Short");
+
+        root.getChildren().addAll(b1,b2);
+        Scene scene = new Scene(root,500,500);
+        stage.setScene(scene);
+        stage.show();
+
+}
+
+public static void main(String[]args) {
+    launch(args);
+}
+
+}
